@@ -1,0 +1,212 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PlayerController : MonoBehaviour
+{
+    public float moveSpeed = 15f;
+    private bool isMoving = false;
+    private Vector3 targetPos; 
+    private Rigidbody rb;
+    private MoveDirection currentDir = MoveDirection.None;
+    public Transform collectionBricks;
+    public GameObject footBrickPrefab;
+    public Transform visualGroup;
+    [SerializeField] private LayerMask obstacleLayer ;
+    [SerializeField] private float offset ;
+    private float? pendingRotationY = null;
+    private float brickHeight = 0.5f;
+    private Animator childAnimator;
+
+    private void OnEnable()
+    {
+        EventManager.SubscribeTo<SwipeMoveEvent>(OnSwipe);
+        EventManager.SubscribeTo<QiaoPlayerCollisionEvent>(OnQiaoPlayerCollision);
+        EventManager.SubscribeTo<Zhuanjiao1ColisionEvent>(OnZhuanjiao1Collision);
+    }
+    private void OnDisable()
+    {
+        EventManager.UnsubscribeFrom<SwipeMoveEvent>(OnSwipe);
+        EventManager.UnsubscribeFrom<QiaoPlayerCollisionEvent>(OnQiaoPlayerCollision);
+        EventManager.UnsubscribeFrom<Zhuanjiao1ColisionEvent>(OnZhuanjiao1Collision);
+    }
+    private void Awake()
+    {
+        childAnimator = GetComponentInChildren<Animator>();
+    }
+    private void OnZhuanjiao1Collision(ref Zhuanjiao1ColisionEvent data)
+    {
+        if (data.RotationY != null)
+        {
+            pendingRotationY = data.RotationY;
+        }
+    }
+    private void OnQiaoPlayerCollision(ref QiaoPlayerCollisionEvent data)
+    {
+        if (data.Qiao != null && data.Collision != null)
+        {
+            RemoveFoorBrick();
+        }
+    }
+
+    private void OnSwipe(ref SwipeMoveEvent data)
+    {
+        if (isMoving || currentDir != MoveDirection.None) return;
+        currentDir = data.Direction;
+
+        targetPos = CalculateTarget(GetVectorFromEnum(currentDir));
+        targetPos.y = transform.position.y;
+        isMoving = true;
+    }
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+        
+    }
+
+    void FixedUpdate()
+    {
+        if (isMoving)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, targetPos, moveSpeed * Time.fixedDeltaTime);
+
+  
+            if (Vector3.Distance(transform.position, targetPos) < 0.05f)
+            {
+                transform.position = targetPos; 
+                isMoving = false;
+                if (pendingRotationY.HasValue)
+                {
+                    currentDir = GetNewDirection(currentDir, pendingRotationY.Value);
+                    targetPos = CalculateTarget(GetVectorFromEnum(currentDir));
+                    targetPos.y = transform.position.y;
+                    isMoving = true;
+                    pendingRotationY = null;
+                }
+                else
+                {
+                    currentDir = MoveDirection.None;
+                }
+            }
+        }
+    }
+    private Vector3 GetVectorFromEnum(MoveDirection dir)
+    {
+        return dir switch
+        {
+            MoveDirection.Up => Vector3.forward,
+            MoveDirection.Down => Vector3.back,
+            MoveDirection.Left => Vector3.left,
+            MoveDirection.Right => Vector3.right,
+            _ => Vector3.zero
+        };
+    }
+    private Vector3 CalculateTarget(Vector3 direction)
+    {
+        Vector3 rayOrigin = transform.position + Vector3.up * offset;
+
+        float maxDistance = 100f;
+        RaycastHit hit;
+
+        Debug.DrawRay(rayOrigin, direction * maxDistance, Color.red, 2f);
+
+        if (Physics.Raycast(rayOrigin, direction, out hit, maxDistance, obstacleLayer))
+        {
+            if (hit.collider.CompareTag("Obstacle"))
+            {
+                Debug.Log("Hit wall at: " + hit.point);
+                Vector3 targetPos = hit.point - direction * 0.5f;
+                Vector2Int cellPos = GridSystem.Instance.WorldToCell(targetPos);
+                return GridSystem.Instance.CellToWorld(cellPos);
+            }
+
+            Vector3 noWallTarget = transform.position + (direction * maxDistance);
+            Vector2Int finalCellPos = GridSystem.Instance.WorldToCell(noWallTarget);
+
+            Vector3 result = GridSystem.Instance.CellToWorld(finalCellPos);
+            return new Vector3(result.x, transform.position.y, result.z);
+        }
+        Vector3 fallbackTarget = transform.position + (direction * maxDistance);
+        Vector2Int fallbackCell = GridSystem.Instance.WorldToCell(fallbackTarget);
+
+        Vector3 fallbackResult = GridSystem.Instance.CellToWorld(fallbackCell);
+        return new Vector3(fallbackResult.x, transform.position.y, fallbackResult.z);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Brick"))
+        {
+            Debug.Log("Collided with brick: " + other.gameObject.name);
+            if(childAnimator != null)
+            {
+                Debug.Log("Setting rewnu to 1f");
+            }
+            other.gameObject.SetActive(false);
+            childAnimator.SetFloat("rewnu", 1f); 
+            SpawnFootBrick();
+        }
+    }
+
+    private void SpawnFootBrick()
+    {
+        int currentBrickCount = collectionBricks.childCount; 
+
+        currentBrickCount++;
+        GameObject newFootBrick = Instantiate(footBrickPrefab, collectionBricks);
+        float brickY = (currentBrickCount-1) * brickHeight;
+        newFootBrick.transform.localPosition += new Vector3(0, brickY, 0);
+        newFootBrick.transform.localRotation = Quaternion.Euler(-90f, 0f, -180f);
+
+
+        float playerY = currentBrickCount * brickHeight;
+        Debug.Log("Setting player Y to: " + playerY);
+        visualGroup.localPosition = new Vector3(0, playerY, 0);
+    }
+    public void RemoveFoorBrick()
+    {
+        if (collectionBricks.childCount > 0)
+        {
+
+            Transform lastBrick = collectionBricks.GetChild(collectionBricks.childCount - 1);
+            Destroy(lastBrick.gameObject);
+            float playerY = collectionBricks.childCount * brickHeight;
+            visualGroup.localPosition = new Vector3(0, playerY, 0);
+        }
+    }
+    private MoveDirection GetNewDirection(MoveDirection currentDir, float objectYRotation)
+    {
+        int rotation = Mathf.RoundToInt(objectYRotation);
+        rotation = (rotation % 360 + 360) % 360;
+
+        switch (rotation)
+        {
+            case 90:
+                if (currentDir == MoveDirection.Right) return MoveDirection.Up;
+                if (currentDir == MoveDirection.Up) return MoveDirection.Right;
+                break;
+
+            case 0:
+                if (currentDir == MoveDirection.Right) return MoveDirection.Down;
+                if (currentDir == MoveDirection.Down) return MoveDirection.Right;
+                break;
+
+            case 270:
+                if (currentDir == MoveDirection.Left) return MoveDirection.Down;
+                if (currentDir == MoveDirection.Down) return MoveDirection.Left;
+                break;
+
+            case 180:
+                if (currentDir == MoveDirection.Up) return MoveDirection.Left;
+                if (currentDir == MoveDirection.Left) return MoveDirection.Up;
+                break;
+        }
+        return currentDir;
+    }
+}
+
+
+
+
+
+

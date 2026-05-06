@@ -1,0 +1,496 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03218af7af77d62419c111792b070b4e, type: 3}
+  m_Name: Level3
+  m_EditorClassIdentifier: 
+  levelName: Level3
+  objects:
+  - id: Lumian
+    gridPos: {x: 31, y: 4}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Lumian
+    gridPos: {x: 32, y: 5}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Qiao
+    gridPos: {x: 32, y: 6}
+    rotation: {x: 270, y: 0, z: 0}
+  - id: Qiao
+    gridPos: {x: 32, y: 7}
+    rotation: {x: 270, y: 0, z: 0}
+  - id: Qiao
+    gridPos: {x: 32, y: 8}
+    rotation: {x: 270, y: 0, z: 0}
+  - id: Qiao
+    gridPos: {x: 32, y: 9}
+    rotation: {x: 270, y: 0, z: 0}
+  - id: Qiao
+    gridPos: {x: 32, y: 10}
+    rotation: {x: 270, y: 0, z: 0}
+  - id: Qiao
+    gridPos: {x: 32, y: 11}
+    rotation: {x: 270, y: 0, z: 0}
+  - id: Qiao
+    gridPos: {x: 32, y: 12}
+    rotation: {x: 270, y: 0, z: 0}
+  - id: Qiao
+    gridPos: {x: 32, y: 13}
+    rotation: {x: 270, y: 0, z: 0}
+  - id: Qiao
+    gridPos: {x: 32, y: 14}
+    rotation: {x: 270, y: 0, z: 0}
+  - id: Qiao
+    gridPos: {x: 32, y: 15}
+    rotation: {x: 270, y: 0, z: 0}
+  - id: Lumian
+    gridPos: {x: 35, y: 2}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 36, y: 3}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 36, y: 4}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 36, y: 5}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 35, y: 5}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 34, y: 5}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 33, y: 5}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 33, y: 3}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 30, y: 0}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 31, y: 0}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 29, y: 0}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 29, y: 2}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 29, y: 3}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 29, y: 4}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 29, y: 5}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 30, y: 5}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 31, y: 5}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Lumian
+    gridPos: {x: 32, y: 17}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Lumian
+    gridPos: {x: 32, y: 16}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Lumian
+    gridPos: {x: 32, y: 19}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Lumian
+    gridPos: {x: 32, y: 18}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Lumian
+    gridPos: {x: 32, y: 20}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Lumian
+    gridPos: {x: 31, y: 20}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Lumian
+    gridPos: {x: 30, y: 20}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Lumian
+    gridPos: {x: 29, y: 20}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Qiao2
+    gridPos: {x: 28, y: 20}
+    rotation: {x: 270, y: 90, z: 0}
+  - id: Qiao2
+    gridPos: {x: 27, y: 20}
+    rotation: {x: 270, y: 90, z: 0}
+  - id: Qiao2
+    gridPos: {x: 26, y: 20}
+    rotation: {x: 270, y: 90, z: 0}
+  - id: Qiao2
+    gridPos: {x: 25, y: 20}
+    rotation: {x: 270, y: 90, z: 0}
+  - id: Qiao2
+    gridPos: {x: 24, y: 20}
+    rotation: {x: 270, y: 90, z: 0}
+  - id: Qiao2
+    gridPos: {x: 23, y: 20}
+    rotation: {x: 270, y: 90, z: 0}
+  - id: Qiao2
+    gridPos: {x: 22, y: 20}
+    rotation: {x: 270, y: 90, z: 0}
+  - id: Qiao2
+    gridPos: {x: 21, y: 20}
+    rotation: {x: 270, y: 90, z: 0}
+  - id: Qiao2
+    gridPos: {x: 20, y: 20}
+    rotation: {x: 270, y: 90, z: 0}
+  - id: Qiao2
+    gridPos: {x: 19, y: 20}
+    rotation: {x: 270, y: 90, z: 0}
+  - id: Qiao2
+    gridPos: {x: 18, y: 20}
+    rotation: {x: 270, y: 90, z: 0}
+  - id: Qiao2
+    gridPos: {x: 17, y: 20}
+    rotation: {x: 270, y: 90, z: 0}
+  - id: Lumian
+    gridPos: {x: 16, y: 20}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Lumian
+    gridPos: {x: 15, y: 20}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Lumian
+    gridPos: {x: 14, y: 20}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Lumian
+    gridPos: {x: 13, y: 20}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Lumian
+    gridPos: {x: 12, y: 21}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Lumian
+    gridPos: {x: 12, y: 24}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Lumian
+    gridPos: {x: 12, y: 23}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Lumian
+    gridPos: {x: 12, y: 22}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Qiao
+    gridPos: {x: 12, y: 25}
+    rotation: {x: 270, y: 0, z: 0}
+  - id: Qiao
+    gridPos: {x: 12, y: 26}
+    rotation: {x: 270, y: 0, z: 0}
+  - id: Qiao
+    gridPos: {x: 12, y: 27}
+    rotation: {x: 270, y: 0, z: 0}
+  - id: Qiao
+    gridPos: {x: 12, y: 28}
+    rotation: {x: 270, y: 0, z: 0}
+  - id: Qiao
+    gridPos: {x: 12, y: 29}
+    rotation: {x: 270, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 31, y: 16}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 31, y: 17}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 31, y: 18}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 31, y: 19}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 30, y: 19}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 29, y: 19}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 29, y: 18}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 30, y: 18}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 30, y: 17}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 29, y: 17}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 29, y: 16}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 30, y: 16}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 33, y: 16}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 34, y: 16}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 34, y: 17}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 33, y: 17}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 33, y: 18}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 34, y: 18}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 34, y: 19}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 33, y: 19}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 33, y: 20}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 33, y: 21}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 34, y: 20}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 34, y: 21}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 32, y: 22}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 31, y: 22}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 30, y: 22}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 29, y: 22}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 29, y: 21}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 30, y: 21}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 31, y: 21}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 32, y: 21}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 16, y: 19}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 15, y: 19}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 14, y: 19}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 13, y: 19}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 12, y: 19}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 11, y: 19}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 11, y: 20}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 11, y: 21}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 10, y: 21}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 10, y: 20}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 10, y: 19}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 10, y: 22}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 10, y: 23}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 10, y: 24}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 11, y: 24}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 13, y: 24}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 13, y: 23}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 13, y: 22}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 13, y: 21}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 14, y: 21}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 15, y: 21}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 16, y: 21}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 16, y: 22}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 15, y: 22}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 14, y: 22}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhuanjiao1
+    gridPos: {x: 12, y: 20}
+    rotation: {x: 0, y: 180, z: 0}
+  - id: Zhangai
+    gridPos: {x: 11, y: 22}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 11, y: 23}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Lumian
+    gridPos: {x: 31, y: 4}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 29, y: 2}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Lumian
+    gridPos: {x: 32, y: 2}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Lumian
+    gridPos: {x: 31, y: 2}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 29, y: 1}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 30, y: 1}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 31, y: 1}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 32, y: 3}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 33, y: 4}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Lumian
+    gridPos: {x: 31, y: 4}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 32, y: 3}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Lumian
+    gridPos: {x: 32, y: 4}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Lumian
+    gridPos: {x: 32, y: 2}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 29, y: 2}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Lumian
+    gridPos: {x: 31, y: 3}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Lumian
+    gridPos: {x: 35, y: 3}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Lumian
+    gridPos: {x: 35, y: 4}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 35, y: 1}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 34, y: 1}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 33, y: 1}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 30, y: 2}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 30, y: 3}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 30, y: 4}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Di
+    gridPos: {x: 32, y: 1}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 32, y: 0}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 33, y: 0}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 34, y: 0}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 35, y: 0}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 36, y: 0}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 33, y: 22}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 34, y: 22}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Winpos
+    gridPos: {x: 12, y: 30}
+    rotation: {x: -0, y: 0, z: 0}
+  - id: Lumian
+    gridPos: {x: 33, y: 2}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Lumian
+    gridPos: {x: 34, y: 2}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 36, y: 1}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 36, y: 2}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Zhangai
+    gridPos: {x: 34, y: 3}
+    rotation: {x: 0, y: 0, z: 0}
+  - id: Lumian
+    gridPos: {x: 34, y: 4}
+    rotation: {x: 0, y: 0, z: 0}

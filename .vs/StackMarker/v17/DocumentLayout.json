@@ -1,0 +1,394 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\C#\\StackMarker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|C:\\Users\\DELL\\C#\\StackMarker\\assets\\script\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|c:\\users\\dell\\c#\\stackmarker\\assets\\script\\prefabscript\\zhuanjiao1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\prefabscript\\zhuanjiao1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|C:\\Users\\DELL\\C#\\StackMarker\\assets\\script\\prefabscript\\zhuanjiao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\prefabscript\\zhuanjiao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|C:\\Users\\DELL\\C#\\StackMarker\\assets\\script\\prefabscript\\zhangai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\prefabscript\\zhangai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|C:\\Users\\DELL\\C#\\StackMarker\\assets\\script\\prefabscript\\qiao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\prefabscript\\qiao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|C:\\Users\\DELL\\C#\\StackMarker\\assets\\script\\prefabscript\\lumian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\prefabscript\\lumian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|C:\\Users\\DELL\\C#\\StackMarker\\assets\\script\\prefabscript\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\prefabscript\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|C:\\Users\\DELL\\C#\\StackMarker\\assets\\script\\prefabscript\\winpos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\prefabscript\\winpos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|C:\\Users\\DELL\\C#\\StackMarker\\assets\\script\\prefabscript\\lihua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\prefabscript\\lihua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|C:\\Users\\DELL\\C#\\StackMarker\\assets\\script\\data\\leveleditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\data\\leveleditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|C:\\Users\\DELL\\C#\\StackMarker\\assets\\script\\event\\ievent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\event\\ievent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|C:\\Users\\DELL\\C#\\StackMarker\\assets\\script\\base\\spawnlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\base\\spawnlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|C:\\Users\\DELL\\C#\\StackMarker\\assets\\script\\event\\structevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\event\\structevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|C:\\Users\\DELL\\C#\\StackMarker\\assets\\script\\input\\swipeinputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\input\\swipeinputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|C:\\Users\\DELL\\C#\\StackMarker\\assets\\script\\base\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\base\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|C:\\Users\\DELL\\C#\\StackMarker\\assets\\script\\base\\gridsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\base\\gridsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|C:\\Users\\DELL\\C#\\StackMarker\\assets\\script\\ui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\ui\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|C:\\Users\\DELL\\C#\\StackMarker\\assets\\script\\data\\leveleditorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\data\\leveleditorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|C:\\Users\\DELL\\C#\\StackMarker\\assets\\script\\interface\\iobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\interface\\iobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|C:\\Users\\DELL\\C#\\StackMarker\\assets\\script\\data\\leveldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\data\\leveldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|C:\\Users\\DELL\\C#\\StackMarker\\assets\\script\\data\\prefabregistry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\data\\prefabregistry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|C:\\Users\\DELL\\C#\\StackMarker\\assets\\script\\event\\eventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D849303C-F6E3-C8D1-80AF-F984B36D5916}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\event\\eventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\C#\\StackMarker\\Assets\\_MazeMakerAssets\\SoundManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\_MazeMakerAssets\\SoundManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 20,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Zhuanjiao.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\PrefabScript\\Zhuanjiao.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PrefabScript\\Zhuanjiao.cs",
+              "ToolTip": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\PrefabScript\\Zhuanjiao.cs",
+              "RelativeToolTip": "Assets\\Script\\PrefabScript\\Zhuanjiao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T01:50:23.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SoundManager.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\_MazeMakerAssets\\SoundManager.cs",
+              "RelativeDocumentMoniker": "Assets\\_MazeMakerAssets\\SoundManager.cs",
+              "ToolTip": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\_MazeMakerAssets\\SoundManager.cs",
+              "RelativeToolTip": "Assets\\_MazeMakerAssets\\SoundManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T15:42:41.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\UI\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\UI\\UIManager.cs",
+              "ToolTip": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\UI\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Script\\UI\\UIManager.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAjwC4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T01:39:37.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SpawnLevel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\Base\\SpawnLevel.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Base\\SpawnLevel.cs",
+              "ToolTip": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\Base\\SpawnLevel.cs",
+              "RelativeToolTip": "Assets\\Script\\Base\\SpawnLevel.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAqwHgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T04:08:57.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GridSystem.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\Base\\GridSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Base\\GridSystem.cs",
+              "ToolTip": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\Base\\GridSystem.cs",
+              "RelativeToolTip": "Assets\\Script\\Base\\GridSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T04:08:55.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LevelManager.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\Base\\LevelManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Base\\LevelManager.cs",
+              "ToolTip": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\Base\\LevelManager.cs",
+              "RelativeToolTip": "Assets\\Script\\Base\\LevelManager.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwBsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T04:07:42.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Lihua.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\PrefabScript\\Lihua.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PrefabScript\\Lihua.cs",
+              "ToolTip": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\PrefabScript\\Lihua.cs",
+              "RelativeToolTip": "Assets\\Script\\PrefabScript\\Lihua.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA6wAcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T09:47:42.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StructEvent.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\Event\\StructEvent.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Event\\StructEvent.cs",
+              "ToolTip": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\Event\\StructEvent.cs",
+              "RelativeToolTip": "Assets\\Script\\Event\\StructEvent.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAWwBUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T02:35:05.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IEvent.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\Event\\IEvent.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Event\\IEvent.cs",
+              "ToolTip": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\Event\\IEvent.cs",
+              "RelativeToolTip": "Assets\\Script\\Event\\IEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T09:12:18.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EventManager.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\Event\\EventManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Event\\EventManager.cs",
+              "ToolTip": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\Event\\EventManager.cs",
+              "RelativeToolTip": "Assets\\Script\\Event\\EventManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T09:11:09.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LevelEditorController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\Data\\LevelEditorController.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Data\\LevelEditorController.cs",
+              "ToolTip": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\Data\\LevelEditorController.cs",
+              "RelativeToolTip": "Assets\\Script\\Data\\LevelEditorController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowIIAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T02:55:04.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SwipeInputHandler.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\Input\\SwipeInputHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Input\\SwipeInputHandler.cs",
+              "ToolTip": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\Input\\SwipeInputHandler.cs",
+              "RelativeToolTip": "Assets\\Script\\Input\\SwipeInputHandler.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwCEAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T03:38:32.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Di.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\PrefabScript\\Di.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PrefabScript\\Di.cs",
+              "ToolTip": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\PrefabScript\\Di.cs",
+              "RelativeToolTip": "Assets\\Script\\PrefabScript\\Di.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA9wBMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T02:50:39.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LevelEditor.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\Data\\LevelEditor.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Data\\LevelEditor.cs",
+              "ToolTip": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\Data\\LevelEditor.cs",
+              "RelativeToolTip": "Assets\\Script\\Data\\LevelEditor.cs",
+              "ViewState": "AgIAAMcAAAAAAAAAAAAwwNYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T02:54:49.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Lumian.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\PrefabScript\\Lumian.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PrefabScript\\Lumian.cs",
+              "ToolTip": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\PrefabScript\\Lumian.cs",
+              "RelativeToolTip": "Assets\\Script\\PrefabScript\\Lumian.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T02:50:10.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Qiao.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\PrefabScript\\Qiao.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PrefabScript\\Qiao.cs",
+              "ToolTip": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\PrefabScript\\Qiao.cs",
+              "RelativeToolTip": "Assets\\Script\\PrefabScript\\Qiao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T02:49:40.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Winpos.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\PrefabScript\\Winpos.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PrefabScript\\Winpos.cs",
+              "ToolTip": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\PrefabScript\\Winpos.cs",
+              "RelativeToolTip": "Assets\\Script\\PrefabScript\\Winpos.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T02:48:38.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Zhuanjiao1.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\PrefabScript\\Zhuanjiao1.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PrefabScript\\Zhuanjiao1.cs",
+              "ToolTip": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\PrefabScript\\Zhuanjiao1.cs",
+              "RelativeToolTip": "Assets\\Script\\PrefabScript\\Zhuanjiao1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T02:42:11.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Zhangai.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\PrefabScript\\Zhangai.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PrefabScript\\Zhangai.cs",
+              "ToolTip": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\PrefabScript\\Zhangai.cs",
+              "RelativeToolTip": "Assets\\Script\\PrefabScript\\Zhangai.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T02:28:45.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\Player\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Player\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\Player\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Script\\Player\\PlayerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T15:01:21.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LevelData.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\Data\\LevelData.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Data\\LevelData.cs",
+              "ToolTip": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\Data\\LevelData.cs",
+              "RelativeToolTip": "Assets\\Script\\Data\\LevelData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T14:37:55.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PrefabRegistry.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\Data\\PrefabRegistry.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Data\\PrefabRegistry.cs",
+              "ToolTip": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\Data\\PrefabRegistry.cs",
+              "RelativeToolTip": "Assets\\Script\\Data\\PrefabRegistry.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwBcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T13:51:07.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IObject.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\Interface\\IObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Interface\\IObject.cs",
+              "ToolTip": "C:\\Users\\DELL\\C#\\StackMarker\\Assets\\Script\\Interface\\IObject.cs",
+              "RelativeToolTip": "Assets\\Script\\Interface\\IObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T11:59:39.375Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
