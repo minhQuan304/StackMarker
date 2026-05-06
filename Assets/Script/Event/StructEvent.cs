@@ -10,7 +10,7 @@ public struct SwipeMoveEvent : IEvent
 
 public struct QiaoPlayerCollisionEvent : IEvent
 {
-    public IObject Qiao;
+    public Qiao Qiao;
     public Collision Collision;
 }
 

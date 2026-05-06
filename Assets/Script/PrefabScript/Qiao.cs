@@ -42,9 +42,17 @@ public class Qiao : MonoBehaviour, IObject
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            dimian.GetComponent<MeshRenderer>().material = _material;
-            GetComponent<Collider>().enabled = false;
-            EventManager.Raise(new QiaoPlayerCollisionEvent { Qiao = this, Collision = other });
+            EventManager.Raise(new QiaoPlayerCollisionEvent
+            {
+                Qiao = this,
+                Collision = other
+            });
         }
+    }
+
+    public void OnBrickExchanged()  
+    {
+        dimian.GetComponent<MeshRenderer>().material = _material;
+        GetComponent<Collider>().enabled = false; 
     }
 }

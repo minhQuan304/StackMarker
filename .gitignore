@@ -1,9 +1,38 @@
+# --- Unity Default ---
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
 /UserSettings/
+/MemoryCaptures/
+/Logs/
+/*.log
+/CrashReports/
+
+# --- Visual Studio & IDEs ---
+.vs/
+.vsidx
 *.csproj
 *.sln
+*.user
 *.userprefs
+*.suo
+*.pidb
+*.svclog
+*.cache
+*.opendb
+.idea/
+.vscode/
+
+# --- OS Junk ---
+.DS_Store
+Thumbs.db
+
+# --- Assets & Packages ---
+*.unitypackage
+/[Aa]ssetStoreTools*/
+
+# --- Copilot & AI Indexing ---
+.vs/**/CopilotIndices/
+.vs/**/FileContentIndex/

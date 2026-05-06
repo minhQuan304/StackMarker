@@ -110,9 +110,17 @@ public class PlayerController : MonoBehaviour
 
     private void OnQiaoPlayerCollision(ref QiaoPlayerCollisionEvent data)
     {
-        if (data.Qiao != null && data.Collision != null)
+        if (data.Qiao != null)
         {
-            RemoveFoorBrick();
+            if (currentBrickCount > 0)
+            {
+                data.Qiao.OnBrickExchanged();
+                RemoveFoorBrick();
+            }
+            else
+            { 
+                StopMovementAndLose();
+            }
         }
     }
 
@@ -214,20 +222,52 @@ public class PlayerController : MonoBehaviour
             float playerY = currentBrickCount * brickHeight;
             visualGroup.localPosition = new Vector3(0, playerY, 0);
 
-            if (currentBrickCount <= 0 && !isFinished && isMoving)
-            {
-
-                Vector3 moveDir = GetVectorFromEnum(currentDir);
-
-                Vector3 nextCellPos = transform.position + moveDir;
-                Vector2Int gridPos = GridSystem.Instance.WorldToCell(nextCellPos);
-                targetPos = GridSystem.Instance.CellToWorld(gridPos);
-                targetPos.y = transform.position.y;
-
-                StartCoroutine(DelayedLoseEvent());
-            }
+           
         }
     }
+    public void StopMovementAndLose()
+    {
+        if (!isFinished && isMoving)
+        {
+            isMoving = false; 
+            Vector3 moveDir = GetVectorFromEnum(currentDir);
+            Vector2Int gridPos = GridSystem.Instance.WorldToCell(transform.position);
+            targetPos = GridSystem.Instance.CellToWorld(gridPos);
+            targetPos.y = transform.position.y;
+            transform.position = targetPos;
+            StartCoroutine(DelayedLoseEvent());
+        }
+    }
+    //public void RemoveFoorBrick()
+    //{
+    //    if (currentBrickCount > 0)
+    //    {
+    //        currentBrickCount--;
+
+    //        if (collectionBricks.childCount > 0)
+    //        {
+    //            Transform lastBrick = collectionBricks.GetChild(collectionBricks.childCount - 1);
+    //            Destroy(lastBrick.gameObject);
+    //        }
+
+    //        float playerY = currentBrickCount * brickHeight;
+    //        visualGroup.localPosition = new Vector3(0, playerY, 0);
+    //    }
+    //    //else
+    //    //{
+    //    //    if (!isFinished && isMoving)
+    //    //    {
+    //    //        isMoving = false; 
+    //    //        Vector3 moveDir = GetVectorFromEnum(currentDir);
+    //    //        Vector2Int gridPos = GridSystem.Instance.WorldToCell(transform.position);
+    //    //        targetPos = GridSystem.Instance.CellToWorld(gridPos);
+    //    //        targetPos.y = transform.position.y;
+    //    //        transform.position = targetPos;
+
+    //    //        StartCoroutine(DelayedLoseEvent());
+    //    //    }
+    //    //}
+    //}
     private IEnumerator DelayedLoseEvent()
     {
         yield return new WaitForSeconds(1.5f);
